@@ -1,6 +1,6 @@
 import { createApp, h } from 'vue'
 // import ElementPlus from 'element-plus'
-import SelectSyncData from '@/views/cloudSync/selectSyncData/SelectSyncData.vue'
+import SelectSyncData from './selectSyncData.vue'
 
 export const showSelectSyncDataDialog = (options = {}) => {
   const container = document.createElement('div')
